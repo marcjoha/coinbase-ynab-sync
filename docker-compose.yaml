@@ -1,0 +1,3 @@
+services:
+  coinbase-ynab-sync:
+    build: .
