@@ -37,7 +37,7 @@ def main():
 
     log.debug("Environment Variables:")
     log.debug(f"  COINBASE_KEY: {COINBASE_KEY}")
-    log.debug(f"  COINBASE_SECRET: {COINBASE_SECRET}")
+    log.debug(f"  COINBASE_SECRET: {COINBASE_SECRET[:5]}... (truncated)")
     log.debug(f"  YNAB_TOKEN: {YNAB_TOKEN}")
     log.debug(f"  YNAB_BUDGET: {YNAB_BUDGET}")
     log.debug(f"  YNAB_ACCOUNT: {YNAB_ACCOUNT}")
