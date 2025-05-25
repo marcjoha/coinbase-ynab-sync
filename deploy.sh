@@ -12,6 +12,6 @@ if [[ -z "$GCP_PROJECT" ]]; then
   GCP_PROJECT="$DEFAULT_GCP_PROJECT"
 fi
 
-# Deploy the Cloud Run job with environment variables
+# Deploy the Cloud Run job
 echo "Deploying Cloud Run job: $JOB_NAME"
 gcloud run jobs deploy "$JOB_NAME" --source=. --project="$GCP_PROJECT"
