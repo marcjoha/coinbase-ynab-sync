@@ -12,3 +12,5 @@ FIAT_CURRENCY=...
 ```
 
 The `deploy.sh` will deploy the container to Google Cloud Run as a job.
+
+NB. the job isn't automatically scheduled, do this yourself.
